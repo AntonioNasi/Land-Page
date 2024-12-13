@@ -40,7 +40,22 @@ header{
 }
 header .gradiente{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(253, 4, 191, 0.722) 10%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 90%);
+    background-image: linear-gradient(to top, #fd04bfb8 10%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 90%);
+}
+header .gradiente nav{
+    width: 20%;
+    margin: 10px auto 0px;
+    display: flex;
+    justify-content: space-around;
+}
+header .gradiente nav a{
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+header .gradiente nav a:hover{
+    background-color: #fd04bfb8;
+    color: #ffffff;
+    transition: background-color .4s;
 }
 header .gradiente .cx-texto{
     height: 100%;
