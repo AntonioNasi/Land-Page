@@ -7,27 +7,27 @@ html{
     scroll-behavior: smooth;
 }
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 900;
     font-size: 28px;
 }
 h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-size: 26px;
 }
 h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     font-size: 22px;
 }
 a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 300;
     font-size: 22px;
     text-decoration: none;
@@ -40,11 +40,20 @@ header{
 }
 header .gradiente{
     height: 100vh;
-    background-image: linear-gradient(to top, black 10%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 90%);
+    background-image: linear-gradient(to top, rgba(253, 4, 191, 0.722) 10%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, 0) 90%);
 }
 header .gradiente .cx-texto{
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+header .gradiente .cx-texto .texto h1{
+    font-family: "Damion", cursive;
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-size: 60px;
+}
+header .gradiente .cx-texto .texto p{
+    font-weight:lighter;
 }
